@@ -1,0 +1,52 @@
+body{
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --blanco: #ffffff;
+    --yellow: #ffcc00;
+    --negro: #000000;
+    --verde: #00ff00;
+    --celeste: #1ac6ff;
+}
+
+header{
+    width: 100%;
+    height: 100vh; 
+    background: var(--negro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo h1{
+    color: var(--yellow)
+}
+.principal{
+    height: 30em;
+    width: 30em;
+    background: var(--celeste);
+}
+
+.filas{
+    width: 100%;
+    height: 10em;
+    display: flex;
+}
+.op{
+    width: 33.3%;
+    margin: 4px;
+    background: var(--negro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.op a{
+    color: var(--celeste);
+    text-decoration: none;
+    padding: 4em 1em;
+    cursor: pointer;
+    font-weight: 600;
+}
+
